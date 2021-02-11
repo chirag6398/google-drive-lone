@@ -1,0 +1,28 @@
+.container {
+  width: 100%;
+  display: flex;
+}
+.home__header {
+  top: 0px;
+  position: fixed;
+  height: 60px;
+  width: 100%;
+}
+.home__maincontainer {
+  display: flex;
+  flex: 1 1;
+  position: relative;
+  top: 60px;
+  display: flex;
+  flex: 1;
+}
+.home__leftsidebar {
+  display: flex;
+  min-width: 155px;
+  flex: 0.15;
+  padding: 10px;
+}
+.home__remainingpart {
+  flex: 0.85;
+  padding: 20px;
+}

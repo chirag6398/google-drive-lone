@@ -1,10 +1,11 @@
 import React from "react";
 import "./App.css";
 import Header from "./components/header";
+import Homescreen from "./components/HomeScreen";
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Homescreen />
     </div>
   );
 }
